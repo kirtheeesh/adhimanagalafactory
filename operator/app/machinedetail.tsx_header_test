@@ -1,0 +1,30 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { Picker } from '@react-native-picker/picker';
+import { useLocalSearchParams, useRouter } from 'expo-router';
+import React, { useEffect, useRef, useState, useCallback } from 'react';
+import {
+    ActivityIndicator,
+    Alert,
+    ScrollView,
+    StatusBar,
+    StyleSheet,
+    Text,
+    TextInput,
+    TouchableOpacity,
+    View
+} from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
+
+import { SERVER_URL } from '@shared/constants/ApiConfig';
+import { fetchWithTimeout } from '@shared/utils/fetchTimeout';
+import HourlyReportModal from './hourly_report';
+import {
+    HourlyGridModal,
+    StopReasonModal,
+    CloseMachineModal,
+    ProductionReportModal,
+    AddMaterialsModal,
+    LumpsModal
+} from './MachineComponents';
+
+export default function MachineDetail() {

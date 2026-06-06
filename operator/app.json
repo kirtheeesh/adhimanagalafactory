@@ -1,0 +1,69 @@
+{
+  "expo": {
+    "cli": {
+      "appVersionSource": "remote"
+    },
+    "name": "factory-operator",
+    "slug": "factory-operator",
+    "version": "1.0.0",
+    "owner": "kirtheesh",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.jpeg",
+    "scheme": "myapplication",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.factory.operator",
+      "icon": "./assets/favicon.jpeg"
+    },
+    "android": {
+      "package": "com.factory.operator",
+      "edgeToEdgeEnabled": true,
+      "compileSdkVersion": 35,
+      "targetSdkVersion": 35,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.jpeg",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "output": "static",
+      "bundler": "metro",
+      "favicon": "./assets/favicon.jpeg"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-font",
+      "@react-native-community/datetimepicker"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b2d2b65c-8f3d-4037-b44b-510d00eea7bf"
+      }
+    }
+  }
+}

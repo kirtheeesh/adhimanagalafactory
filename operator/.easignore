@@ -1,0 +1,6 @@
+.git/
+android/
+ios/
+
+# Include internal shared folder
+!shared/
