@@ -1,0 +1,1665 @@
+[TAILING] Tailing last 1000 lines for [backend] process (change the value with --lines option)
+C:\Users\Administrator\.pm2\logs\backend-error.log last 1000 lines:
+0|backend  | Dispatch Error: Insufficient stock for product: 1000ML ROUND  CONTAINER( LID-NAT, BOTT-NAT)
+0|backend  | Error: read ECONNRESET
+0|backend  |     at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+0|backend  |   errno: -4077,
+0|backend  |   code: 'ECONNRESET',
+0|backend  |   syscall: 'read'
+0|backend  | }
+0|backend  | 
+0|backend  | <--- Last few GCs --->
+0|backend  | 
+0|backend  | [4688:00000185AC82F000]     1029 ms: Scavenge 5.4 (7.6) -> 4.9 (7.6) MB, pooled: 0 MB, 2.00 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+0|backend  | [4688:00000185AC82F000]     1438 ms: Scavenge 5.9 (7.8) -> 5.1 (9.8) MB, pooled: 0 MB, 2.00 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+0|backend  | [4688:00000185AC82F000]     2381 ms: Scavenge 7.4 (10.3) -> 5.9 (10.3) MB, pooled: 0 MB, 1.00 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+0|backend  | 
+0|backend  | FATAL ERROR: NewSpace::EnsureCurrentCapacity Allocation failed - JavaScript heap out of memory
+0|backend  | ----- Native stack trace -----
+0|backend  | 
+0|backend  |  1: 00007FF657F9C36F 
+0|backend  |  2: 00007FF658BE4D77 
+0|backend  |  3: 00007FF6589E5467 
+0|backend  |  4: 00007FF6589A5F03 
+0|backend  |  5: 00007FF6589E786A 
+0|backend  |  6: 00007FF6589E6E96 
+0|backend  |  7: 00007FF6589F7E22 
+0|backend  |  8: 00007FF6589F794B 
+0|backend  |  9: 00007FF659E7DAED 
+0|backend  | 10: 00007FF6589E2F30 
+0|backend  | 11: 00007FF658A09661 
+0|backend  | 12: 00007FF658A244AB 
+0|backend  | 13: 00007FF658C05795 
+0|backend  | 14: 00007FF6580A860C 
+0|backend  | 15: 00007FF657F6EBAA 
+0|backend  | 16: 00007FF659C8788D 
+0|backend  | 17: 00007FF659C85E14 
+0|backend  | 18: 00007FF659C85E14 
+0|backend  | 19: 00007FF659C85E14 
+0|backend  | 20: 00007FF659C85E14 
+0|backend  | 21: 00007FF659C85E14 
+0|backend  | 22: 00007FF659C85E14 
+0|backend  | 23: 00007FF659C85E14 
+0|backend  | 24: 00007FF659C85E14 
+0|backend  | 25: 00007FF659C85E14 
+0|backend  | 26: 00007FF659C85E14 
+0|backend  | 27: 00007FF659C85E14 
+0|backend  | 28: 00007FF659C85E14 
+0|backend  | 29: 00007FF659C85E14 
+0|backend  | 30: 00007FF659C85E14 
+0|backend  | 31: 00007FF659C85E14 
+0|backend  | 32: 00007FF659C85E14 
+0|backend  | 33: 00007FF659C85E14 
+0|backend  | 34: 00007FF659C85E14 
+0|backend  | 35: 00007FF659C85E14 
+0|backend  | 36: 00007FF659C85E14 
+0|backend  | 37: 00007FF659C85E14 
+0|backend  | 38: 00007FF659C85E14 
+0|backend  | 39: 00007FF659C839DC 
+0|backend  | 40: 00007FF659C8353B 
+0|backend  | 41: 00007FF658A9924B 
+0|backend  | 42: 00007FF658A989CC 
+0|backend  | 43: 00007FF658BFF03E 
+0|backend  | 44: 00007FF658BFF266 
+0|backend  | 45: 00007FF657FCD2E1 
+0|backend  | 46: 00007FF657EE33CB 
+0|backend  | 47: 00007FF657FF3199 
+0|backend  | 48: 00007FF657FF30A9 
+0|backend  | 49: 00007FF6580AB133 
+0|backend  | 50: 00007FF657F2B409 
+0|backend  | 51: 00007FF657FF718C 
+0|backend  | 52: 00007FF659013F82 
+0|backend  | 53: 00007FF659E871F4 
+0|backend  | 54: 00007FFEA3814CB0 
+0|backend  | 55: 00007FFEA41AE8AB 
+0|backend  | 
+0|backend  | <--- Last few GCs --->
+0|backend  | 
+0|backend  | [14948:000001E4BAB2F000]     4550 ms: Scavenge 14.7 (19.9) -> 12.4 (20.9) MB, pooled: 0 MB, 2.00 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+0|backend  | [14948:000001E4BAB2F000]     5116 ms: Mark-Compact 18.9 (24.8) -> 15.5 (26.6) MB, pooled: 7 MB, 5.00 / 0.00 ms  (+ 1.0 ms in 6 steps since start of marking, biggest step 1.0 ms, walltime since start of marking 28 ms) (average mu = 0.999, current mu = 0.99
+0|backend  | FATAL ERROR: Zone Allocation failed - process out of memory
+0|backend  | ----- Native stack trace -----
+0|backend  | 
+0|backend  | 
+0|backend  | <--- Last few GCs --->
+0|backend  | 
+0|backend  | [14948:000001E4BAB2F000]     4550 ms: Scavenge 14.7 (19.9) -> 12.4 (20.9) MB, pooled: 0 MB, 2.00 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+0|backend  | [14948:000001E4BAB2F000]     5116 ms: Mark-Compact 18.9 (24.8) -> 15.5 (26.6) MB, pooled: 7 MB, 5.00 / 0.00 ms  (+ 1.0 ms in 6 steps since start of marking, biggest step 1.0 ms, walltime since start of marking 28 ms) (average mu = 0.999, current mu = 0.99
+0|backend  | 
+0|backend  | <--- Last few GCs --->
+0|backend  | 
+0|backend  | [14948:000001E4BAB2F000]     4550 ms: Scavenge 14.7 (19.9) -> 12.4 (20.9) MB, pooled: 0 MB, 2.00 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+0|backend  | [14948:000001E4BAB2F000]     5116 ms: Mark-Compact 18.9 (24.8) -> 15.5 (26.6) MB, pooled: 7 MB, 5.00 / 0.00 ms  (+ 1.0 ms in 6 steps since start of marking, biggest step 1.0 ms, walltime since start of marking 28 ms) (average mu = 0.999, current mu = 0.99
+0|backend  | FATAL ERROR: Zone Allocation failed - process out of memory
+0|backend  | ----- Native stack trace -----
+0|backend  | 
+0|backend  | FATAL ERROR: Zone Allocation failed - process out of memory
+0|backend  | ----- Native stack trace -----
+0|backend  | 
+0|backend  |  1: 00007FF657F9C36F 
+0|backend  |  2: 00007FF658BE4D77 
+0|backend  |  3: 00007FF65855FBD6 
+0|backend  |  4: 00007FF658348159 
+0|backend  |  5: 00007FF658489ACB 
+0|backend  |  6: 00007FF65837F394 
+0|backend  |  7: 00007FF65837CC43 
+0|backend  |  8: 00007FF65845B65B 
+0|backend  |  9: 00007FF65845A37F 
+0|backend  | 10: 00007FF6584587D7 
+0|backend  | 11: 00007FF6584389C5 
+0|backend  | 12: 00007FF6584359DA 
+0|backend  | 13: 00007FF658B589AF 
+0|backend  | 14: 00007FF6584374BB 
+0|backend  | 15: 00007FF6593C570F 
+0|backend  | 16: 00007FF657EECD8E 
+0|backend  | 17: 00007FF658C3A096 
+0|backend  | 18: 00007FF659E992B3 
+0|backend  | 19: 00007FFEA3814CB0 
+0|backend  | 20: 00007FFEA41AE8AB RtlUserThreadStart+43
+0|backend  | 
+0|backend  | <--- Last few GCs --->
+0|backend  | 
+0|backend  | [11460:000001B7CC20F000]       62 ms: Scavenge 5.4 (7.3) -> 4.9 (7.8) MB, pooled: 0 MB, 1.00 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+0|backend  | [11460:000001B7CC20F000]       83 ms: Scavenge 5.9 (7.8) -> 5.2 (7.8) MB, pooled: 0 MB, 0.00 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+0|backend  | 
+0|backend  | FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+0|backend  | ----- Native stack trace -----
+0|backend  | 
+0|backend  |  1: 00007FF657F9C36F 
+0|backend  |  2: 00007FF658BE4D77 
+0|backend  |  3: 00007FF6589E5467 
+0|backend  |  4: 00007FF65897DE8B 
+0|backend  |  5: 00007FF6589558DE 
+0|backend  |  6: 00007FF6589E7F02 
+0|backend  |  7: 00007FF6589E6EB7 
+0|backend  |  8: 00007FF6589F7E22 
+0|backend  |  9: 00007FF6589F794B 
+0|backend  | 10: 00007FF659E7DAED 
+0|backend  | 11: 00007FF6589E2F30 
+0|backend  | 12: 00007FF6589FD7BA 
+0|backend  | 13: 00007FF658A09C56 
+0|backend  | 14: 00007FF6585DCD47 
+0|backend  | 15: 00007FF659D2F57A 
+0|backend  | 16: 00007FF659D877E8 
+0|backend  | 17: 000001B7D434AE72 
+0|backend  | 
+0|backend  | <--- Last few GCs --->
+0|backend  | 
+0|backend  | [10440:0000017641F9F000]       70 ms: Scavenge 5.4 (7.6) -> 4.9 (7.6) MB, pooled: 0 MB, 1.00 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+0|backend  | 
+0|backend  | FATAL ERROR: Zone Allocation failed - process out of memory
+0|backend  | ----- Native stack trace -----
+0|backend  | 
+0|backend  | 
+0|backend  | <--- Last few GCs --->
+0|backend  | 
+0|backend  | [10440:0000017641F9F000]       70 ms: Scavenge 5.4 (7.6) -> 4.9 (7.6) MB, pooled: 0 MB, 1.00 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+0|backend  | 
+0|backend  | FATAL ERROR: Zone Allocation failed - process out of memory
+0|backend  | ----- Native stack trace -----
+0|backend  | 
+0|backend  |  1: 00007FF657F9C36F 
+0|backend  |  2: 00007FF658BE4D77 
+0|backend  |  3: 00007FF65855FBD6 
+0|backend  |  4: 00007FF65937EFB5 
+0|backend  |  5: 00007FF65937F7BB 
+0|backend  |  6: 00007FF65838DB41 
+0|backend  |  7: 00007FF658437AD3 
+0|backend  |  8: 00007FF6584359DA 
+0|backend  |  9: 00007FF658B589AF 
+0|backend  | 10: 00007FF6584374BB 
+0|backend  | 11: 00007FF6593C570F 
+0|backend  | 12: 00007FF657EECD8E 
+0|backend  | 13: 00007FF658C3A096 
+0|backend  | 14: 00007FF659E992B3 
+0|backend  | 15: 00007FFEA3814CB0 
+0|backend  | 16: 00007FFEA41AE8AB 
+0|backend  | 
+0|backend  | <--- Last few GCs --->
+0|backend  | 
+0|backend  | FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+0|backend  | ----- Native stack trace -----
+0|backend  | 
+0|backend  |  1: 00007FF657F9C36F 
+0|backend  |  2: 00007FF658BE4D77 
+0|backend  |  3: 00007FF6589E5467 
+0|backend  |  4: 00007FF65897DE8B 
+0|backend  |  5: 00007FF6589558DE 
+0|backend  |  6: 00007FF6589E7F02 
+0|backend  |  7: 00007FF6589E6EB7 
+0|backend  |  8: 00007FF6589F7E22 
+0|backend  |  9: 00007FF6589F794B 
+0|backend  | 10: 00007FF659E7DAED 
+0|backend  | 11: 00007FF6589E2F30 
+0|backend  | 12: 00007FF6589FD7BA 
+0|backend  | 13: 00007FF658A09C56 
+0|backend  | 14: 00007FF6585DCD47 
+0|backend  | 15: 00007FF659D2F57A 
+0|backend  | 16: 00007FF659D5CFB5 
+0|backend  | 17: 0000020A00087718 
+0|backend  | 
+0|backend  | <--- Last few GCs --->
+0|backend  | 
+0|backend  | [14112:0000012F9845F000]       87 ms: Scavenge 5.4 (7.3) -> 4.9 (7.6) MB, pooled: 0 MB, 1.00 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+0|backend  | [14112:0000012F9845F000]      114 ms: Scavenge 5.8 (8.1) -> 5.1 (8.1) MB, pooled: 0 MB, 4.00 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+0|backend  | [14112:0000012F9845F000]      135 ms: Scavenge 6.1 (8.3) -> 5.4 (9.3) MB, pooled: 0 MB, 2.00 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+0|backend  | 
+0|backend  | FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+0|backend  | ----- Native stack trace -----
+0|backend  | 
+0|backend  |  1: 00007FF657F9C36F 
+0|backend  |  2: 00007FF658BE4D77 
+0|backend  |  3: 00007FF6589E5467 
+0|backend  |  4: 00007FF65897DE8B 
+0|backend  |  5: 00007FF6589A61FA 
+0|backend  |  6: 00007FF6589E7846 
+0|backend  |  7: 00007FF6589E6E96 
+0|backend  |  8: 00007FF6589F7E22 
+0|backend  |  9: 00007FF6589F794B 
+0|backend  | 10: 00007FF659E7DAED 
+0|backend  | 11: 00007FF6589E2F30 
+0|backend  | 12: 00007FF658A09661 
+0|backend  | 13: 00007FF658A244AB 
+0|backend  | 14: 00007FF658C05795 
+0|backend  | 15: 00007FF6580A860C 
+0|backend  | 16: 00007FF657F6EBAA 
+0|backend  | 17: 00007FF659C8788D 
+0|backend  | 18: 00007FF659C85E14 
+0|backend  | 19: 00007FF659C85E14 
+0|backend  | 20: 00007FF659C85E14 
+0|backend  | 21: 00007FF659C85E14 
+0|backend  | 22: 00007FF659C85E14 
+0|backend  | 23: 00007FF659C85E14 
+0|backend  | 24: 00007FF659C85E14 
+0|backend  | 25: 00007FF659C85E14 
+0|backend  | 26: 00007FF659C85E14 
+0|backend  | 27: 00007FF659C85E14 
+0|backend  | 28: 00007FF659C85E14 
+0|backend  | 29: 00007FF659C85E14 
+0|backend  | 30: 00007FF659C85E14 
+0|backend  | 31: 00007FF659C85E14 
+0|backend  | 32: 00007FF659C85E14 
+0|backend  | 33: 00007FF659C85E14 
+0|backend  | 34: 00007FF659C85E14 
+0|backend  | 35: 00007FF659C85E14 
+0|backend  | 36: 00007FF659C85E14 
+0|backend  | 37: 00007FF659C85E14 
+0|backend  | 38: 00007FF659C85E14 
+0|backend  | 39: 00007FF659C85E14 
+0|backend  | 40: 00007FF659C839DC 
+0|backend  | 41: 00007FF659C8353B 
+0|backend  | 42: 00007FF658A9924B 
+0|backend  | 43: 00007FF658A989CC 
+0|backend  | 44: 00007FF658BFF03E 
+0|backend  | 45: 00007FF658BFF266 
+0|backend  | 46: 00007FF657FCD2E1 
+0|backend  | 47: 00007FF657EE33CB 
+0|backend  | 48: 00007FF657FF3199 
+0|backend  | 49: 00007FF657FF30A9 
+0|backend  | 50: 00007FF6580AB133 
+0|backend  | 51: 00007FF657F2B409 
+0|backend  | 52: 00007FF657FF718C 
+0|backend  | 53: 00007FF659013F82 
+0|backend  | 54: 00007FF659E871F4 
+0|backend  | 55: 00007FFEA3814CB0 
+0|backend  | 56: 00007FFEA41AE8AB 
+0|backend  | Dispatch Error: Insufficient stock for product: 1000ML ROUND  CONTAINER( LID-NAT, BOTT-NAT)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | TypeError: argument handler must be a function
+0|backend  |     at Route.<computed> [as post] (a:\FACTORY\backend\node_modules\router\lib\route.js:228:15)
+0|backend  |     at Router.<computed> [as post] (a:\FACTORY\backend\node_modules\router\index.js:448:19)
+0|backend  |     at Object.<anonymous> (a:\FACTORY\backend\packing_routes.js:21:8)
+0|backend  |     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+0|backend  |     at Object..js (node:internal/modules/cjs/loader:1943:10)
+0|backend  |     at Module.load (node:internal/modules/cjs/loader:1533:32)
+0|backend  |     at Module._load (node:internal/modules/cjs/loader:1335:12)
+0|backend  |     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+0|backend  |     at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+0|backend  |     at Hook._require.Module.require (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:101:39)
+0|backend  | Operator Report Error: wastage_lumps is not defined
+0|backend  | Operator Report Error: wastage_lumps is not defined
+0|backend  | Operator Report Error: wastage_lumps is not defined
+0|backend  | Operator Report Error: wastage_lumps is not defined
+0|backend  | Create Finished Product Error: invalid input syntax for type integer: "1000.00"
+0|backend  | Create Finished Product Error: invalid input syntax for type integer: "1000.00"
+0|backend  | Create Finished Product Error: invalid input syntax for type integer: "1000.00"
+0|backend  | Error creating sales request: insert or update on table "sales_request_items" violates foreign key constraint "sales_request_items_product_id_fkey"
+0|backend  | Error creating sales request: insert or update on table "sales_request_items" violates foreign key constraint "sales_request_items_product_id_fkey"
+0|backend  | Error creating sales request: insert or update on table "sales_request_items" violates foreign key constraint "sales_request_items_product_id_fkey"
+0|backend  | Error creating sales request: insert or update on table "sales_request_items" violates foreign key constraint "sales_request_items_product_id_fkey"
+
+C:\Users\Administrator\.pm2\logs\backend-out.log last 1000 lines:
+0|backend  | [4:03:12 PM] GET /machines
+0|backend  | [4:03:17 PM] GET /machines
+0|backend  | [4:03:22 PM] GET /machines
+0|backend  | [4:03:27 PM] GET /machines
+0|backend  | [4:03:32 PM] GET /machines
+0|backend  | [4:03:37 PM] GET /machines
+0|backend  | [4:03:42 PM] GET /machines
+0|backend  | [4:03:47 PM] GET /machines
+0|backend  | [4:03:52 PM] GET /machines
+0|backend  | [4:03:57 PM] GET /machines
+0|backend  | [4:04:02 PM] GET /machines
+0|backend  | [4:04:07 PM] GET /machines
+0|backend  | [4:04:12 PM] GET /machines
+0|backend  | [4:04:17 PM] GET /machines
+0|backend  | [4:04:22 PM] GET /machines
+0|backend  | [4:04:27 PM] GET /machines
+0|backend  | [4:04:32 PM] GET /machines
+0|backend  | [4:04:37 PM] GET /machines
+0|backend  | [4:04:42 PM] GET /machines
+0|backend  | [4:04:47 PM] GET /machines
+0|backend  | [4:04:52 PM] GET /machines
+0|backend  | [4:04:57 PM] GET /machines
+0|backend  | [4:05:02 PM] GET /machines
+0|backend  | [4:05:07 PM] GET /machines
+0|backend  | [4:05:12 PM] GET /machines
+0|backend  | [4:05:17 PM] GET /machines
+0|backend  | [4:05:22 PM] GET /machines
+0|backend  | [4:05:27 PM] GET /machines
+0|backend  | [4:05:32 PM] GET /machines
+0|backend  | [4:05:37 PM] GET /machines
+0|backend  | [4:05:43 PM] GET /machines
+0|backend  | [4:05:47 PM] GET /machines
+0|backend  | [4:05:52 PM] GET /machines
+0|backend  | [4:05:57 PM] GET /machines
+0|backend  | [4:06:02 PM] GET /machines
+0|backend  | [4:06:07 PM] GET /machines
+0|backend  | [4:06:12 PM] GET /machines
+0|backend  | [4:06:17 PM] GET /machines
+0|backend  | [4:06:22 PM] GET /machines
+0|backend  | [4:06:27 PM] GET /machines
+0|backend  | [4:06:32 PM] GET /machines
+0|backend  | [4:06:37 PM] GET /machines
+0|backend  | [4:06:42 PM] GET /machines
+0|backend  | [4:06:47 PM] GET /machines
+0|backend  | [4:06:53 PM] GET /machines
+0|backend  | [4:06:57 PM] GET /machines
+0|backend  | [4:07:02 PM] GET /machines
+0|backend  | [4:07:07 PM] GET /machines
+0|backend  | [4:07:12 PM] GET /machines
+0|backend  | [4:07:17 PM] GET /machines
+0|backend  | [4:07:22 PM] GET /machines
+0|backend  | [4:07:27 PM] GET /machines
+0|backend  | [4:07:32 PM] GET /machines
+0|backend  | [4:07:37 PM] GET /machines
+0|backend  | [4:07:42 PM] GET /machines
+0|backend  | [4:07:47 PM] GET /machines
+0|backend  | [4:07:52 PM] GET /machines
+0|backend  | [4:07:57 PM] GET /machines
+0|backend  | [4:08:02 PM] GET /machines
+0|backend  | [4:08:07 PM] GET /machines
+0|backend  | [4:08:12 PM] GET /machines
+0|backend  | [4:08:17 PM] GET /machines
+0|backend  | [4:08:22 PM] GET /machines
+0|backend  | [4:08:27 PM] GET /machines
+0|backend  | [4:08:33 PM] GET /machines
+0|backend  | [4:08:37 PM] GET /machines
+0|backend  | [4:08:42 PM] GET /machines
+0|backend  | [4:08:47 PM] GET /machines
+0|backend  | [4:08:52 PM] GET /machines
+0|backend  | [4:08:57 PM] GET /machines
+0|backend  | [4:09:02 PM] GET /machines
+0|backend  | [4:09:07 PM] GET /machines
+0|backend  | [4:09:13 PM] GET /machines
+0|backend  | [4:09:17 PM] GET /machines
+0|backend  | [4:09:22 PM] GET /machines
+0|backend  | [4:09:27 PM] GET /machines
+0|backend  | [4:09:33 PM] GET /machines
+0|backend  | [4:09:37 PM] GET /machines
+0|backend  | [4:09:42 PM] GET /machines
+0|backend  | [4:09:47 PM] GET /machines
+0|backend  | [4:09:52 PM] GET /machines
+0|backend  | [4:09:57 PM] GET /machines
+0|backend  | [4:10:02 PM] GET /machines
+0|backend  | [4:10:07 PM] GET /machines
+0|backend  | [4:10:12 PM] GET /machines
+0|backend  | [4:10:17 PM] GET /machines
+0|backend  | [4:10:22 PM] GET /machines
+0|backend  | [4:10:27 PM] GET /machines
+0|backend  | [4:10:32 PM] GET /machines
+0|backend  | [4:10:37 PM] GET /machines
+0|backend  | [4:10:42 PM] GET /machines
+0|backend  | [4:10:47 PM] GET /machines
+0|backend  | [4:10:52 PM] GET /machines
+0|backend  | [4:10:57 PM] GET /machines
+0|backend  | [4:11:02 PM] GET /machines
+0|backend  | [4:11:07 PM] GET /machines
+0|backend  | [4:11:12 PM] GET /machines
+0|backend  | [4:11:17 PM] GET /machines
+0|backend  | [4:11:22 PM] GET /machines
+0|backend  | [4:11:27 PM] GET /machines
+0|backend  | [4:11:32 PM] GET /machines
+0|backend  | [4:11:37 PM] GET /machines
+0|backend  | [4:11:42 PM] GET /machines
+0|backend  | [4:11:47 PM] GET /machines
+0|backend  | [4:11:52 PM] GET /machines
+0|backend  | [4:11:57 PM] GET /machines
+0|backend  | [4:12:02 PM] GET /machines
+0|backend  | [4:12:07 PM] GET /machines
+0|backend  | [4:12:12 PM] GET /machines
+0|backend  | [4:12:17 PM] GET /machines
+0|backend  | [4:12:23 PM] GET /machines
+0|backend  | [4:12:27 PM] GET /machines
+0|backend  | [4:12:32 PM] GET /machines
+0|backend  | [4:12:37 PM] GET /machines
+0|backend  | [4:12:42 PM] GET /machines
+0|backend  | [4:12:47 PM] GET /machines
+0|backend  | [4:12:52 PM] GET /machines
+0|backend  | [4:12:53 PM] GET /
+0|backend  | [4:12:54 PM] GET /api/tags
+0|backend  | [4:12:54 PM] GET /v1/models
+0|backend  | [4:12:54 PM] GET /queue/status
+0|backend  | [4:12:54 PM] GET /api/version
+0|backend  | [4:12:54 PM] GET /.well-known/mcp.json
+0|backend  | [4:12:55 PM] GET /metrics
+0|backend  | [4:12:55 PM] GET /.well-known/agent.json
+0|backend  | [4:12:56 PM] GET /docs
+0|backend  | [4:12:56 PM] GET /
+0|backend  | [4:12:56 PM] GET /openapi.yaml
+0|backend  | [4:12:56 PM] GET /swagger.json
+0|backend  | [4:12:56 PM] GET /openapi.json
+0|backend  | [4:12:56 PM] GET /.well-known/ai-plugin.json
+0|backend  | [4:12:56 PM] GET /v1/models
+0|backend  | [4:12:57 PM] GET /api/tags
+0|backend  | [4:12:57 PM] GET /api/health
+0|backend  | [4:12:57 PM] GET /api/version
+0|backend  | [4:12:57 PM] GET /metrics
+0|backend  | [4:12:57 PM] GET /health
+0|backend  | [4:12:57 PM] GET /queue/status
+0|backend  | [4:12:57 PM] GET /api/system
+0|backend  | [4:12:57 PM] GET /api/status
+0|backend  | [4:12:57 PM] GET /api/v1/auth
+0|backend  | [4:12:57 PM] GET /.well-known/agent.json
+0|backend  | [4:12:57 PM] GET /machines
+0|backend  | [4:12:57 PM] GET /.well-known/mcp.json
+0|backend  | [4:12:58 PM] GET /tools
+0|backend  | [4:12:58 PM] GET /mcp
+0|backend  | [4:12:58 PM] GET /api/tools
+0|backend  | [4:12:58 PM] GET /env
+0|backend  | [4:12:58 PM] GET /api/v1/info
+0|backend  | [4:12:58 PM] GET /server_info
+0|backend  | [4:12:58 PM] GET /graphql
+0|backend  | [4:12:58 PM] GET /.env.production
+0|backend  | [4:12:59 PM] GET /api/flows
+0|backend  | [4:12:59 PM] GET /.env
+0|backend  | [4:12:59 PM] GET /.env.local
+0|backend  | [4:12:59 PM] GET /env.js
+0|backend  | [4:12:59 PM] GET /_debug
+0|backend  | [4:12:59 PM] GET /settings
+0|backend  | [4:12:59 PM] GET /config.js
+0|backend  | [4:12:59 PM] GET /api/config
+0|backend  | [4:12:59 PM] GET /input_schema
+0|backend  | [4:12:59 PM] GET /config
+0|backend  | [4:12:59 PM] GET /debug/vars
+0|backend  | [4:13:00 PM] GET /sse
+0|backend  | [4:13:00 PM] GET /invoke
+0|backend  | [4:13:00 PM] GET /messages
+0|backend  | [4:13:00 PM] GET /output_schema
+0|backend  | [4:13:00 PM] GET /api/v1/flows
+0|backend  | [4:13:00 PM] GET /api/traces
+0|backend  | [4:13:00 PM] GET /api/v1/version
+0|backend  | [4:13:00 PM] GET /api/v1/tools
+0|backend  | [4:13:01 PM] GET /rest/workflows
+0|backend  | [4:13:01 PM] GET /api/runs
+0|backend  | [4:13:01 PM] GET /api/agents
+0|backend  | [4:13:01 PM] GET /api/workflows
+0|backend  | [4:13:01 PM] GET /tools/list
+0|backend  | [4:13:01 PM] GET /resources/list
+0|backend  | [4:13:01 PM] GET /v1/schema
+0|backend  | [4:13:01 PM] GET /v1/meta
+0|backend  | [4:13:01 PM] GET /api/v1/heartbeat
+0|backend  | [4:13:01 PM] GET /health/liveliness
+0|backend  | [4:13:01 PM] GET /ui
+0|backend  | [4:13:01 PM] GET /model/info
+0|backend  | [4:13:02 PM] GET /key/info
+0|backend  | [4:13:02 PM] GET /ui/model_hub_table/
+0|backend  | [4:13:02 PM] GET /team/info
+0|backend  | [4:13:02 PM] GET /market
+0|backend  | [4:13:02 PM] GET /discover
+0|backend  | [4:13:02 PM] GET /api/v1/collections
+0|backend  | [4:13:02 PM] GET /machines
+0|backend  | [4:13:02 PM] GET /v1/nodes
+0|backend  | [4:13:02 PM] GET /api/v1/public-chatflows
+0|backend  | [4:13:02 PM] GET /console/api/system-features
+0|backend  | [4:13:02 PM] GET /console/api/version
+0|backend  | [4:13:03 PM] GET /console/api/setup
+0|backend  | [4:13:03 PM] GET /api/v1/chatflows
+0|backend  | [4:13:03 PM] GET /api/v1/version
+0|backend  | [4:13:03 PM] GET /api/trpc/public.checkUpdate
+0|backend  | [4:13:03 PM] GET /rest/settings
+0|backend  | [4:13:03 PM] GET /api/gallery
+0|backend  | [4:13:03 PM] GET /assistants
+0|backend  | [4:13:03 PM] GET /v1/playground/status
+0|backend  | [4:13:04 PM] GET /assistants/search
+0|backend  | [4:13:04 PM] GET /v1/tools
+0|backend  | [4:13:04 PM] GET /v1/agents
+0|backend  | [4:13:04 PM] GET /api/crews
+0|backend  | [4:13:04 PM] GET /api/common/system/getInitData
+0|backend  | [4:13:04 PM] GET /api/profile
+0|backend  | [4:13:05 PM] GET /user/login/
+0|backend  | [4:13:05 PM] GET /api/version/
+0|backend  | [4:13:05 PM] GET /v1/workflow/run
+0|backend  | [4:13:05 PM] GET /api/models
+0|backend  | [4:13:05 PM] GET /sign
+0|backend  | [4:13:05 PM] GET /.well-known/serviceinfo
+0|backend  | [4:13:05 PM] GET /api/conversations
+0|backend  | [4:13:05 PM] GET /api/v1/chat/dialogue/list
+0|backend  | [4:13:05 PM] GET /v1/conversation/create
+0|backend  | [4:13:05 PM] GET /api/v1/chat/db/list
+0|backend  | [4:13:06 PM] GET /api/v1/chat/dialogue/scenes
+0|backend  | [4:13:06 PM] GET /api/options/config
+0|backend  | [4:13:06 PM] GET /sdapi/v1/sd-models
+0|backend  | [4:13:06 PM] GET /api/v1/pieces
+0|backend  | [4:13:06 PM] GET /chat
+0|backend  | [4:13:06 PM] GET /ap/v1/agent/tasks
+0|backend  | [4:13:06 PM] GET /agent
+0|backend  | [4:13:06 PM] GET /api/v1/flags
+0|backend  | [4:13:06 PM] GET /internal/sysinfo
+0|backend  | [4:13:06 PM] GET /api/chain
+0|backend  | [4:13:07 PM] GET /machines
+0|backend  | [4:13:07 PM] GET /agent/tasks
+0|backend  | [4:13:07 PM] GET /api/agent
+0|backend  | [4:13:07 PM] GET /api/chat
+0|backend  | [4:13:07 PM] GET /api/sessions
+0|backend  | [4:13:07 PM] GET /redoc
+0|backend  | [4:13:08 PM] GET /v1/playground
+0|backend  | [4:13:08 PM] GET /_next/data
+0|backend  | [4:13:08 PM] GET /playground
+0|backend  | [4:13:08 PM] GET /api/providers
+0|backend  | [4:13:08 PM] GET /models
+0|backend  | [4:13:08 PM] GET /_api/version
+0|backend  | [4:13:08 PM] GET /model
+0|backend  | [4:13:08 PM] GET /api/projects
+0|backend  | [4:13:08 PM] GET /api/_status
+0|backend  | [4:13:09 PM] GET /_admin/status
+0|backend  | [4:13:09 PM] GET /api/agent/tasks
+0|backend  | [4:13:09 PM] GET /api/v1/me
+0|backend  | [4:13:09 PM] GET /api/v1/workspace
+0|backend  | [4:13:09 PM] GET /version
+0|backend  | [4:13:09 PM] GET /api/v1/health
+0|backend  | [4:13:10 PM] GET /api/generate
+0|backend  | [4:13:10 PM] GET /status
+0|backend  | [4:13:10 PM] GET /api/v1/bots
+0|backend  | [4:13:10 PM] GET /generate
+0|backend  | [4:13:10 PM] GET /_chainlit/config
+0|backend  | [4:13:10 PM] GET /api/v1/tenants/default_tenant
+0|backend  | [4:13:10 PM] GET /api/trpc
+0|backend  | [4:13:10 PM] GET /api/predict
+0|backend  | [4:13:10 PM] GET /v1/messages
+0|backend  | [4:13:10 PM] GET /info
+0|backend  | [4:13:10 PM] GET /play
+0|backend  | [4:13:10 PM] GET /api/v2.20/server.info
+0|backend  | [4:13:11 PM] GET /ping
+0|backend  | [4:13:11 PM] GET /api/v2.13/server.info
+0|backend  | [4:13:11 PM] GET /api/v1/recognition/faces
+0|backend  | [4:13:11 PM] GET /api/experiment
+0|backend  | [4:13:11 PM] GET /health-check
+0|backend  | [4:13:11 PM] GET /?query=SELECT+1
+0|backend  | [4:13:11 PM] GET /api/tts
+0|backend  | [4:13:11 PM] GET /healthz
+0|backend  | [4:13:11 PM] GET /v1/engines/copilot-codex/completions
+0|backend  | [4:13:12 PM] GET /machines
+0|backend  | [4:13:12 PM] GET /v1/engines
+0|backend  | [4:13:12 PM] GET /copilot_internal/v2/token
+0|backend  | [4:13:12 PM] GET /api/tasks
+0|backend  | [4:13:13 PM] GET /api/v2/server/about
+0|backend  | [4:13:13 PM] GET /api/manage/connector
+0|backend  | [4:13:13 PM] GET /api/server/about
+0|backend  | [4:13:14 PM] GET /info/main/logs.html
+0|backend  | [4:13:14 PM] GET /api/v1/workers
+0|backend  | [4:13:14 PM] GET /api/manage/document-set
+0|backend  | [4:13:14 PM] GET /api/v1/experiments
+0|backend  | [4:13:14 PM] GET /api/test-runs
+0|backend  | [4:13:14 PM] GET /api/v1/checks
+0|backend  | [4:13:14 PM] GET /state
+0|backend  | [4:13:14 PM] GET /api/v1/master
+0|backend  | [4:13:14 PM] GET /console/api/apps
+0|backend  | [4:13:15 PM] GET /console/api/workspaces/current/tool-providers
+0|backend  | [4:13:15 PM] GET /_cat/indices
+0|backend  | [4:13:15 PM] GET /api/parameters
+0|backend  | [4:13:16 PM] GET /get_model_list
+0|backend  | [4:13:16 PM] GET /_ml/trained_models
+0|backend  | [4:13:16 PM] GET /v1/internal/model/info
+0|backend  | [4:13:16 PM] GET /v1/audio/transcriptions
+0|backend  | [4:13:16 PM] GET /feature_store.yaml
+0|backend  | [4:13:16 PM] GET /list_models
+0|backend  | [4:13:16 PM] GET /worker_get_status
+0|backend  | [4:13:16 PM] GET /_cluster/settings
+0|backend  | [4:13:16 PM] GET /v1/completions
+0|backend  | [4:13:17 PM] GET /login
+0|backend  | [4:13:17 PM] GET /v1/scrape
+0|backend  | [4:13:17 PM] GET /get-online-features
+0|backend  | [4:13:17 PM] GET /api/search?query=ai
+0|backend  | [4:13:17 PM] GET /feature-service
+0|backend  | [4:13:17 PM] GET /api/search
+0|backend  | [4:13:17 PM] GET /machines
+0|backend  | [4:13:18 PM] GET /api/health/ready
+0|backend  | [4:13:18 PM] GET /console
+0|backend  | [4:13:18 PM] GET /api/v1/projects
+0|backend  | [4:13:18 PM] GET /api/dashboard/cluster
+0|backend  | [4:13:18 PM] GET /v1/images/generations
+0|backend  | [4:13:18 PM] GET /api/v1/nodes
+0|backend  | [4:13:18 PM] GET /api/v2/testing
+0|backend  | [4:13:18 PM] GET /api
+0|backend  | [4:13:18 PM] GET /api/datasources
+0|backend  | [4:13:19 PM] GET /guards
+0|backend  | [4:13:19 PM] GET /dashboard
+0|backend  | [4:13:19 PM] GET /query
+0|backend  | [4:13:19 PM] GET /v1/log/request
+0|backend  | [4:13:19 PM] GET /v1/request
+0|backend  | [4:13:19 PM] GET /api/server-info/ping
+0|backend  | [4:13:20 PM] GET /rest/v1/devices
+0|backend  | [4:13:20 PM] GET /documents
+0|backend  | [4:13:20 PM] GET /api/server-info/version
+0|backend  | [4:13:20 PM] GET /lab
+0|backend  | [4:13:20 PM] GET /api/config/types
+0|backend  | [4:13:20 PM] GET /hub/login
+0|backend  | [4:13:21 PM] GET /api/v1/model
+0|backend  | [4:13:21 PM] GET /rest/v1/health
+0|backend  | [4:13:21 PM] GET /api/v1/app/config
+0|backend  | [4:13:21 PM] GET /api/v1/app/version
+0|backend  | [4:13:21 PM] GET /api/kernelspecs
+0|backend  | [4:13:21 PM] GET /hub/api
+0|backend  | [4:13:22 PM] GET /machines
+0|backend  | [4:13:22 PM] GET /ai/models
+0|backend  | [4:13:22 PM] GET /api/extra/version
+0|backend  | [4:13:22 PM] GET /ai
+0|backend  | [4:13:23 PM] GET /api/v1/info/version
+0|backend  | [4:13:23 PM] GET /.well-known/kong
+0|backend  | [4:13:23 PM] GET /apis
+0|backend  | [4:13:24 PM] GET /api/v1/namespaces
+0|backend  | [4:13:24 PM] GET /pipeline/apis/v2beta1/pipelines
+0|backend  | [4:13:24 PM] GET /v2/models
+0|backend  | [4:13:24 PM] GET /api/v1/components
+0|backend  | [4:13:24 PM] GET /apis/kubeflow.org
+0|backend  | [4:13:24 PM] GET /v2
+0|backend  | [4:13:25 PM] GET /stream
+0|backend  | [4:13:25 PM] GET /swagger/
+0|backend  | [4:13:25 PM] GET /v1/embeddings
+0|backend  | [4:13:25 PM] GET /api/v1/table
+0|backend  | [4:13:25 PM] GET /api/public/health
+0|backend  | [4:13:25 PM] GET /threads
+0|backend  | [4:13:26 PM] GET /api/v1/runs
+0|backend  | [4:13:26 PM] GET /api/v1/sessions
+0|backend  | [4:13:26 PM] GET /languages
+0|backend  | [4:13:27 PM] GET /machines
+0|backend  | [4:13:28 PM] GET /analyze/prompt
+0|backend  | [4:13:28 PM] GET /v1/health
+0|backend  | [4:13:28 PM] GET /slots
+0|backend  | [4:13:29 PM] GET /zuqu3
+0|backend  | [4:13:29 PM] GET /lmstudio/diagnostics
+0|backend  | [4:13:29 PM] GET /api/query
+0|backend  | [4:13:32 PM] GET /machines
+0|backend  | [4:13:32 PM] GET /indexes
+0|backend  | [4:13:32 PM] GET /v1/chat/completions
+0|backend  | [4:13:32 PM] GET /v1/chat/interactive
+0|backend  | [4:13:32 PM] GET /manifest.json
+0|backend  | [4:13:32 PM] GET /api/home
+0|backend  | [4:13:32 PM] GET /messages/
+0|backend  | [4:13:33 PM] GET /v1/memories
+0|backend  | [4:13:33 PM] GET /api/kernel/status
+0|backend  | [4:13:33 PM] GET /api/mcp
+0|backend  | [4:13:35 PM] GET /mj/submit/imagine
+0|backend  | [4:13:35 PM] GET /mj/task/list
+0|backend  | [4:13:35 PM] GET /api/botstate
+0|backend  | [4:13:36 PM] GET /api/2.0/mlflow/experiments/list
+0|backend  | [4:13:36 PM] GET /v1/vector/collections
+0|backend  | [4:13:36 PM] GET /v2/vectordb/collections/list
+0|backend  | [4:13:36 PM] GET /debug/dump_engine_metrics
+0|backend  | [4:13:36 PM] GET /api/handlers
+0|backend  | [4:13:36 PM] GET /api/2.0/mlflow/registered-models/list
+0|backend  | [4:13:37 PM] GET /machines
+0|backend  | [4:13:37 PM] GET /ajax-api/2.0/mlflow/experiments/list
+0|backend  | [4:13:37 PM] GET /api/db/connect
+0|backend  | [4:13:37 PM] GET /minio/health/live
+0|backend  | [4:13:39 PM] GET /models/
+0|backend  | [4:13:39 PM] GET /api/v1/credentials
+0|backend  | [4:13:40 PM] GET /db/manage/server/version
+0|backend  | [4:13:40 PM] GET /v1/rails/configs
+0|backend  | [4:13:40 PM] GET /v2/repository/index
+0|backend  | [4:13:40 PM] GET /api/v1/workflows
+0|backend  | [4:13:41 PM] GET /db/data/
+0|backend  | [4:13:41 PM] GET /api/backend/v1/version
+0|backend  | [4:13:41 PM] GET /openapi/swagger/
+0|backend  | [4:13:41 PM] GET /run
+0|backend  | [4:13:41 PM] GET /api/ps
+0|backend  | [4:13:41 PM] GET /api/openapi.json
+0|backend  | [4:13:42 PM] GET /machines
+0|backend  | [4:13:42 PM] GET /v1/assistants
+0|backend  | [4:13:42 PM] GET /ufmRest/app/ufm_version
+0|backend  | [4:13:42 PM] GET /api/export-auth
+0|backend  | [4:13:43 PM] GET /api/leaderboard/v1/attributes/search
+0|backend  | [4:13:43 PM] GET /api/channel
+0|backend  | [4:13:43 PM] GET /v1/health/ready
+0|backend  | [4:13:44 PM] GET /api/show
+0|backend  | [4:13:44 PM] GET /v1/threads
+0|backend  | [4:13:44 PM] GET /api/voices
+0|backend  | [4:13:44 PM] GET /GeneralModelService/inference
+0|backend  | [4:13:44 PM] GET /web/login
+0|backend  | [4:13:45 PM] GET /v1/config
+0|backend  | [4:13:46 PM] GET /api/v1/models
+0|backend  | [4:13:46 PM] GET /v1/traces
+0|backend  | [4:13:46 PM] GET /_cat/plugins
+0|backend  | [4:13:46 PM] GET /_cluster/health
+0|backend  | [4:13:46 PM] GET /api/v1/functions
+0|backend  | [4:13:46 PM] GET /api/v1/query?query=ai_request_count
+0|backend  | [4:13:47 PM] GET /public/
+0|backend  | [4:13:47 PM] GET /api/v1/label/__name__/values
+0|backend  | [4:13:47 PM] GET /api/v1/config
+0|backend  | [4:13:47 PM] GET /api/v1/orgs
+0|backend  | [4:13:47 PM] GET /v1/chunks
+0|backend  | [4:13:47 PM] GET /api/v1/versions
+0|backend  | [4:13:47 PM] GET /machines
+0|backend  | [4:13:48 PM] GET /v1/ingest
+0|backend  | [4:13:48 PM] GET /qanything
+0|backend  | [4:13:48 PM] GET /-/healthy
+0|backend  | [4:13:48 PM] GET /api/results
+0|backend  | [4:13:48 PM] GET /api/v1/query
+0|backend  | [4:13:48 PM] GET /api/v1/targets
+0|backend  | [4:13:50 PM] GET /api/v1/participants
+0|backend  | [4:13:50 PM] GET /api/cluster_status
+0|backend  | [4:13:50 PM] GET /api/v1/
+0|backend  | [4:13:50 PM] GET /module/list
+0|backend  | [4:13:50 PM] GET /api/serve/deployments
+0|backend  | [4:13:50 PM] GET /model/registry
+0|backend  | [4:13:51 PM] GET /telemetry
+0|backend  | [4:13:51 PM] GET /sdapi/v1/options
+0|backend  | [4:13:51 PM] GET /api/brain
+0|backend  | [4:13:51 PM] GET /v1/api/chats
+0|backend  | [4:13:51 PM] GET /v1/api/datasets
+0|backend  | [4:13:51 PM] GET /collections
+0|backend  | [4:13:52 PM] GET /machines
+0|backend  | [4:13:53 PM] GET /api/serve/applications
+0|backend  | [4:13:53 PM] GET /infer
+0|backend  | [4:13:53 PM] GET /nodes
+0|backend  | [4:13:53 PM] GET /sdapi/v1/cmd-flags
+0|backend  | [4:13:53 PM] GET /api/v1/tasks
+0|backend  | [4:13:53 PM] GET /api/skills
+0|backend  | [4:13:55 PM] GET /api/v1/system
+0|backend  | [4:13:55 PM] GET /get_model_info
+0|backend  | [4:13:55 PM] GET /sdapi/v1/samplers
+0|backend  | [4:13:55 PM] GET /prometheus
+0|backend  | [4:13:55 PM] GET /_stcore/host-config
+0|backend  | [4:13:55 PM] GET /_stcore/stream
+0|backend  | [4:13:56 PM] GET /healthcheck
+0|backend  | [4:13:56 PM] GET /get_server_args
+0|backend  | [4:13:56 PM] GET /api/v1/services
+0|backend  | [4:13:56 PM] GET /api/settings/get
+0|backend  | [4:13:56 PM] GET /inference
+0|backend  | [4:13:56 PM] GET /v1/models/metadata
+0|backend  | [4:13:57 PM] GET /runs
+0|backend  | [4:13:57 PM] GET /v1/.well-known/ready
+0|backend  | [4:13:57 PM] GET /api/v1.0/predictions
+0|backend  | [4:13:57 PM] GET /machines
+0|backend  | [4:13:58 PM] GET /sdapi/v1/memory
+0|backend  | [4:13:58 PM] GET /state/v1
+0|backend  | [4:13:58 PM] GET /data/plugins/listing
+0|backend  | [4:13:59 PM] GET /api/v1/chat
+0|backend  | [4:13:59 PM] GET /api/deployments
+0|backend  | [4:13:59 PM] GET /ui/
+0|backend  | [4:14:00 PM] GET /_stcore/health
+0|backend  | [4:14:00 PM] GET /v1/.well-known/live
+0|backend  | [4:14:00 PM] GET /ApplicationStatus
+0|backend  | [4:14:00 PM] GET /api-description
+0|backend  | [4:14:00 PM] GET /search/
+0|backend  | [4:14:00 PM] GET /v1/model_registrations/LLM
+0|backend  | [4:14:02 PM] GET /machines
+0|backend  | [4:14:02 PM] GET /studio_speakers
+0|backend  | [4:14:03 PM] GET /search
+0|backend  | [4:14:03 PM] GET /api/v1/viewer
+0|backend  | [4:14:03 PM] GET /predict
+0|backend  | [4:14:03 PM] GET /embeddings
+0|backend  | [4:14:03 PM] GET /api/typebots
+0|backend  | [4:14:07 PM] GET /machines
+0|backend  | [4:14:12 PM] GET /machines
+0|backend  | [4:14:17 PM] GET /machines
+0|backend  | [4:14:22 PM] GET /machines
+0|backend  | [4:14:27 PM] GET /machines
+0|backend  | [4:14:32 PM] GET /machines
+0|backend  | [4:14:37 PM] GET /machines
+0|backend  | [4:14:42 PM] GET /machines
+0|backend  | [4:14:47 PM] GET /machines
+0|backend  | [4:14:52 PM] GET /machines
+0|backend  | [4:14:57 PM] GET /machines
+0|backend  | [4:15:02 PM] GET /machines
+0|backend  | [4:15:07 PM] GET /machines
+0|backend  | [4:15:12 PM] GET /machines
+0|backend  | [4:15:17 PM] GET /machines
+0|backend  | [4:15:22 PM] GET /machines
+0|backend  | [4:15:27 PM] GET /machines
+0|backend  | [4:15:32 PM] GET /machines
+0|backend  | [4:15:37 PM] GET /machines
+0|backend  | [4:15:42 PM] GET /machines
+0|backend  | [4:15:47 PM] GET /machines
+0|backend  | [4:15:52 PM] GET /machines
+0|backend  | [4:15:57 PM] GET /machines
+0|backend  | [4:16:02 PM] GET /machines
+0|backend  | [4:16:07 PM] GET /machines
+0|backend  | [4:16:12 PM] GET /machines
+0|backend  | [4:16:17 PM] GET /machines
+0|backend  | [4:16:22 PM] GET /machines
+0|backend  | [4:16:27 PM] GET /machines
+0|backend  | [4:16:32 PM] GET /machines
+0|backend  | [4:16:37 PM] GET /machines
+0|backend  | [4:16:42 PM] GET /machines
+0|backend  | [4:16:47 PM] GET /machines
+0|backend  | [4:16:52 PM] GET /machines
+0|backend  | [4:16:57 PM] GET /machines
+0|backend  | [4:17:02 PM] GET /machines
+0|backend  | [4:17:07 PM] GET /machines
+0|backend  | [4:17:12 PM] GET /machines
+0|backend  | [4:17:17 PM] GET /machines
+0|backend  | [4:17:22 PM] GET /machines
+0|backend  | [4:17:27 PM] GET /machines
+0|backend  | [4:17:32 PM] GET /machines
+0|backend  | [4:17:37 PM] GET /machines
+0|backend  | [4:17:42 PM] GET /machines
+0|backend  | [4:17:47 PM] GET /machines
+0|backend  | [4:17:52 PM] GET /machines
+0|backend  | [4:17:57 PM] GET /machines
+0|backend  | [4:18:02 PM] GET /machines
+0|backend  | [4:18:07 PM] GET /machines
+0|backend  | [4:18:12 PM] GET /machines
+0|backend  | [4:18:17 PM] GET /machines
+0|backend  | [4:18:22 PM] GET /machines
+0|backend  | [4:18:27 PM] GET /machines
+0|backend  | [4:18:32 PM] GET /machines
+0|backend  | [4:18:37 PM] GET /machines
+0|backend  | [4:18:42 PM] GET /machines
+0|backend  | [4:18:47 PM] GET /machines
+0|backend  | [4:18:52 PM] GET /machines
+0|backend  | [4:18:57 PM] GET /machines
+0|backend  | [4:19:02 PM] GET /machines
+0|backend  | [4:19:07 PM] GET /machines
+0|backend  | [4:19:12 PM] GET /machines
+0|backend  | [4:19:17 PM] GET /machines
+0|backend  | [4:19:22 PM] GET /machines
+0|backend  | [4:19:27 PM] GET /machines
+0|backend  | [4:19:32 PM] GET /machines
+0|backend  | [4:19:37 PM] GET /machines
+0|backend  | [4:19:42 PM] GET /machines
+0|backend  | [4:19:47 PM] GET /machines
+0|backend  | [4:19:52 PM] GET /machines
+0|backend  | [4:19:57 PM] GET /machines
+0|backend  | [4:20:02 PM] GET /machines
+0|backend  | [4:20:07 PM] GET /machines
+0|backend  | [4:20:12 PM] GET /machines
+0|backend  | [4:20:17 PM] GET /machines
+0|backend  | [4:20:22 PM] GET /machines
+0|backend  | [4:20:27 PM] GET /machines
+0|backend  | [4:20:32 PM] GET /machines
+0|backend  | [4:20:37 PM] GET /machines
+0|backend  | [4:20:42 PM] GET /machines
+0|backend  | [4:20:47 PM] GET /machines
+0|backend  | [4:20:52 PM] GET /machines
+0|backend  | [4:20:57 PM] GET /machines
+0|backend  | [4:21:02 PM] GET /machines
+0|backend  | [4:21:07 PM] GET /machines
+0|backend  | [4:21:12 PM] GET /machines
+0|backend  | [4:21:17 PM] GET /machines
+0|backend  | [4:21:22 PM] GET /machines
+0|backend  | [4:21:27 PM] GET /machines
+0|backend  | [4:21:32 PM] GET /machines
+0|backend  | [4:21:37 PM] GET /machines
+0|backend  | [4:21:42 PM] GET /machines
+0|backend  | [4:21:47 PM] GET /machines
+0|backend  | [4:21:52 PM] GET /machines
+0|backend  | [4:21:57 PM] GET /machines
+0|backend  | [4:22:02 PM] GET /machines
+0|backend  | [4:22:07 PM] GET /machines
+0|backend  | [4:22:12 PM] GET /machines
+0|backend  | [4:22:17 PM] GET /machines
+0|backend  | [4:22:22 PM] GET /machines
+0|backend  | [4:22:27 PM] GET /machines
+0|backend  | [4:22:32 PM] GET /machines
+0|backend  | [4:22:37 PM] GET /machines
+0|backend  | [4:22:42 PM] GET /machines
+0|backend  | [4:22:47 PM] GET /machines
+0|backend  | [4:22:52 PM] GET /machines
+0|backend  | [4:22:57 PM] GET /machines
+0|backend  | [4:23:02 PM] GET /machines
+0|backend  | [4:23:07 PM] GET /machines
+0|backend  | [4:23:12 PM] GET /machines
+0|backend  | [4:23:17 PM] GET /machines
+0|backend  | [4:23:22 PM] GET /machines
+0|backend  | [4:23:27 PM] GET /machines
+0|backend  | [4:23:32 PM] GET /machines
+0|backend  | [4:23:37 PM] GET /machines
+0|backend  | [4:23:42 PM] GET /machines
+0|backend  | [4:23:47 PM] GET /machines
+0|backend  | [4:23:52 PM] GET /machines
+0|backend  | [4:23:57 PM] GET /machines
+0|backend  | [4:24:02 PM] GET /machines
+0|backend  | [4:24:07 PM] GET /machines
+0|backend  | [4:24:12 PM] GET /machines
+0|backend  | [4:24:17 PM] GET /machines
+0|backend  | [4:24:22 PM] GET /machines
+0|backend  | [4:24:27 PM] GET /machines
+0|backend  | [4:24:32 PM] GET /machines
+0|backend  | [4:24:37 PM] GET /machines
+0|backend  | [4:24:42 PM] GET /machines
+0|backend  | [4:24:47 PM] GET /machines
+0|backend  | [4:24:52 PM] GET /machines
+0|backend  | [4:24:57 PM] GET /machines
+0|backend  | [4:25:02 PM] GET /machines
+0|backend  | [4:25:07 PM] GET /machines
+0|backend  | [4:25:12 PM] GET /machines
+0|backend  | [4:25:17 PM] GET /machines
+0|backend  | [4:25:22 PM] GET /machines
+0|backend  | [4:25:27 PM] GET /machines
+0|backend  | [4:25:32 PM] GET /machines
+0|backend  | [4:25:37 PM] GET /machines
+0|backend  | [4:25:42 PM] GET /machines
+0|backend  | [4:25:47 PM] GET /machines
+0|backend  | [4:25:52 PM] GET /machines
+0|backend  | [4:25:57 PM] GET /machines
+0|backend  | [4:26:02 PM] GET /machines
+0|backend  | [4:26:07 PM] GET /machines
+0|backend  | [4:26:12 PM] GET /machines
+0|backend  | [4:26:17 PM] GET /machines
+0|backend  | [4:26:22 PM] GET /machines
+0|backend  | [4:26:27 PM] GET /machines
+0|backend  | [4:26:32 PM] GET /machines
+0|backend  | [4:26:37 PM] GET /machines
+0|backend  | [4:26:42 PM] GET /machines
+0|backend  | [4:26:47 PM] GET /machines
+0|backend  | [4:26:52 PM] GET /machines
+0|backend  | [4:26:57 PM] GET /machines
+0|backend  | [4:27:02 PM] GET /machines
+0|backend  | [4:27:07 PM] GET /machines
+0|backend  | [4:27:12 PM] GET /machines
+0|backend  | [4:27:17 PM] GET /machines
+0|backend  | [4:27:22 PM] GET /machines
+0|backend  | [4:27:27 PM] GET /machines
+0|backend  | [4:27:32 PM] GET /machines
+0|backend  | [4:27:37 PM] GET /machines
+0|backend  | [4:27:42 PM] GET /machines
+0|backend  | [4:27:47 PM] GET /machines
+0|backend  | [4:27:52 PM] GET /machines
+0|backend  | [4:27:57 PM] GET /machines
+0|backend  | [4:28:02 PM] GET /machines
+0|backend  | [4:28:07 PM] GET /machines
+0|backend  | [4:28:12 PM] GET /machines
+0|backend  | [4:28:17 PM] GET /machines
+0|backend  | [4:28:22 PM] GET /machines
+0|backend  | [4:28:27 PM] GET /machines
+0|backend  | [4:28:32 PM] GET /machines
+0|backend  | [4:28:37 PM] GET /machines
+0|backend  | [4:28:42 PM] GET /machines
+0|backend  | [4:28:47 PM] GET /machines
+0|backend  | [4:28:52 PM] GET /machines
+0|backend  | [4:28:57 PM] GET /machines
+0|backend  | [4:29:02 PM] GET /machines
+0|backend  | [4:29:07 PM] GET /machines
+0|backend  | [4:29:12 PM] GET /machines
+0|backend  | [4:29:17 PM] GET /machines
+0|backend  | [4:29:22 PM] GET /machines
+0|backend  | [4:29:27 PM] GET /machines
+0|backend  | [4:29:32 PM] GET /machines
+0|backend  | [4:29:37 PM] GET /machines
+0|backend  | [4:29:42 PM] GET /machines
+0|backend  | [4:29:47 PM] GET /machines
+0|backend  | [4:29:52 PM] GET /machines
+0|backend  | [4:29:57 PM] GET /machines
+0|backend  | [4:30:02 PM] GET /machines
+0|backend  | [4:30:07 PM] GET /machines
+0|backend  | [4:30:12 PM] GET /machines
+0|backend  | [4:30:17 PM] GET /machines
+0|backend  | [4:30:22 PM] GET /machines
+0|backend  | [4:30:27 PM] GET /machines
+0|backend  | [4:30:32 PM] GET /machines
+0|backend  | [4:30:37 PM] GET /machines
+0|backend  | [4:30:42 PM] GET /machines
+0|backend  | [4:30:47 PM] GET /machines
+0|backend  | [4:30:52 PM] GET /machines
+0|backend  | [4:30:57 PM] GET /machines
+0|backend  | [4:31:02 PM] GET /machines
+0|backend  | [4:31:07 PM] GET /machines
+0|backend  | [4:31:12 PM] GET /machines
+0|backend  | [4:31:17 PM] GET /machines
+0|backend  | [4:31:22 PM] GET /machines
+0|backend  | [4:31:27 PM] GET /machines
+0|backend  | [4:31:32 PM] GET /machines
+0|backend  | [4:31:37 PM] GET /machines
+0|backend  | [4:31:42 PM] GET /machines
+0|backend  | [4:31:47 PM] GET /machines
+0|backend  | [4:31:52 PM] GET /machines
+0|backend  | [4:31:57 PM] GET /machines
+0|backend  | [4:32:02 PM] GET /machines
+0|backend  | [4:32:07 PM] GET /machines
+0|backend  | [4:32:12 PM] GET /machines
+0|backend  | [4:32:17 PM] GET /machines
+0|backend  | [4:32:22 PM] GET /machines
+0|backend  | [4:32:27 PM] GET /machines
+0|backend  | [4:32:32 PM] GET /machines
+0|backend  | [4:32:37 PM] GET /machines
+0|backend  | [4:32:42 PM] GET /machines
+0|backend  | [4:32:47 PM] GET /machines
+0|backend  | [4:32:52 PM] GET /machines
+0|backend  | [4:32:58 PM] GET /machines
+0|backend  | [4:33:03 PM] GET /machines
+0|backend  | [4:33:08 PM] GET /machines
+0|backend  | [4:33:13 PM] GET /machines
+0|backend  | [4:33:18 PM] GET /machines
+0|backend  | [4:33:23 PM] GET /machines
+0|backend  | [4:33:28 PM] GET /machines
+0|backend  | [4:33:33 PM] GET /machines
+0|backend  | [4:33:38 PM] GET /machines
+0|backend  | [4:33:43 PM] GET /machines
+0|backend  | [4:33:48 PM] GET /machines
+0|backend  | [4:34:25 PM] GET /machines
+0|backend  | [4:35:25 PM] GET /machines
+0|backend  | [4:36:25 PM] GET /machines
+0|backend  | [4:37:25 PM] GET /machines
+0|backend  | [4:38:25 PM] GET /machines
+0|backend  | [4:39:25 PM] GET /machines
+0|backend  | [4:40:25 PM] GET /machines
+0|backend  | [4:41:25 PM] GET /machines
+0|backend  | [4:42:25 PM] GET /machines
+0|backend  | [4:43:25 PM] GET /machines
+0|backend  | [4:44:25 PM] GET /machines
+0|backend  | [4:45:25 PM] GET /machines
+0|backend  | [4:46:25 PM] GET /machines
+0|backend  | [4:47:25 PM] GET /machines
+0|backend  | [4:48:10 PM] GET /
+0|backend  | [4:48:16 PM] GET /favicon.ico
+0|backend  | [4:48:16 PM] GET /robots.txt
+0|backend  | [4:48:17 PM] GET /sitemap.xml
+0|backend  | [4:48:17 PM] GET /config.json
+0|backend  | [4:48:25 PM] GET /machines
+0|backend  | [4:49:25 PM] GET /machines
+0|backend  | [4:50:25 PM] GET /machines
+0|backend  | [4:51:25 PM] GET /machines
+0|backend  | [4:52:25 PM] GET /machines
+0|backend  | [4:53:25 PM] GET /machines
+0|backend  | [4:54:25 PM] GET /machines
+0|backend  | [4:55:25 PM] GET /machines
+0|backend  | [4:56:25 PM] GET /machines
+0|backend  | [4:57:25 PM] GET /machines
+0|backend  | [4:58:25 PM] GET /machines
+0|backend  | [4:59:25 PM] GET /machines
+0|backend  | [5:00:25 PM] GET /machines
+0|backend  | [5:01:25 PM] GET /machines
+0|backend  | [5:02:25 PM] GET /machines
+0|backend  | [5:06:43 PM] POST /
+0|backend  | [6:42:32 PM] POST /login
+0|backend  | [LOGIN ATTEMPT] Email: "op", Role: "OPERATOR"
+0|backend  | [LOGIN DEBUG] Found 0 users matching.
+0|backend  | [6:42:37 PM] POST /login
+0|backend  | [LOGIN ATTEMPT] Email: "op", Role: "OPERATOR"
+0|backend  | [LOGIN DEBUG] Found 0 users matching.
+0|backend  | [7:10:55 PM] GET /
+0|backend  | [8:37:29 PM] POST /
+0|backend  | [8:43:49 PM] GET /
+0|backend  | [9:49:01 PM] GET /machines
+0|backend  | [9:49:03 PM] GET /machines
+0|backend  | [9:49:08 PM] GET /machines
+0|backend  | [9:49:13 PM] GET /machines
+0|backend  | [9:49:18 PM] GET /machines
+0|backend  | [9:49:23 PM] GET /machines
+0|backend  | [9:49:28 PM] GET /machines
+0|backend  | [dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+0|backend  | ✅ Server Live at: http://103.172.92.131:3000
+0|backend  | ✅ Connected to PostgreSQL
+0|backend  | [9:49:33 PM] GET /machines
+0|backend  | [9:49:38 PM] GET /machines
+0|backend  | [9:49:45 PM] GET /machines
+0|backend  | [9:49:48 PM] GET /machines
+0|backend  | [9:49:53 PM] GET /machines
+0|backend  | [9:49:58 PM] GET /machines
+0|backend  | [9:50:04 PM] GET /machines
+0|backend  | [9:50:08 PM] GET /machines
+0|backend  | [9:50:13 PM] GET /machines
+0|backend  | [9:50:18 PM] GET /machines
+0|backend  | [9:50:23 PM] GET /machines
+0|backend  | [9:50:28 PM] GET /machines
+0|backend  | [9:50:33 PM] GET /machines
+0|backend  | [9:50:38 PM] GET /machines
+0|backend  | [9:50:43 PM] GET /machines
+0|backend  | [9:50:48 PM] GET /machines
+0|backend  | [9:50:53 PM] GET /machines
+0|backend  | [9:50:58 PM] GET /machines
+0|backend  | [9:51:25 PM] GET /machines
+0|backend  | [9:52:25 PM] GET /machines
+0|backend  | [9:53:25 PM] GET /machines
+0|backend  | [10:00:41 PM] POST /
+0|backend  | [11:38:25 PM] POST /
+0|backend  | [12:36:55 AM] POST /
+0|backend  | [12:54:48 AM] POST /
+0|backend  | [1:51:11 AM] GET /..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
+0|backend  | [2:04:11 AM] GET /
+0|backend  | [2:04:11 AM] GET /favicon.ico
+0|backend  | [2:09:54 AM] GET /
+0|backend  | [2:25:14 AM] GET /
+0|backend  | [2:26:43 AM] GET /favicon.ico
+0|backend  | [2:26:53 AM] POST /
+0|backend  | [2:26:54 AM] POST /_next
+0|backend  | [2:26:55 AM] POST /api
+0|backend  | [2:26:56 AM] POST /_next/server
+0|backend  | [2:26:56 AM] POST /app
+0|backend  | [2:26:57 AM] POST /api/route
+0|backend  | [3:08:28 AM] GET /
+0|backend  | [3:46:56 AM] GET /
+0|backend  | [3:47:00 AM] GET /favicon.ico
+0|backend  | [3:48:04 AM] GET /login
+0|backend  | [5:12:31 AM] POST /
+0|backend  | [5:12:32 AM] POST /_next
+0|backend  | [5:12:33 AM] POST /api
+0|backend  | [5:12:33 AM] POST /_next/server
+0|backend  | [5:12:34 AM] POST /app
+0|backend  | [5:12:34 AM] POST /api/route
+0|backend  | [5:47:09 AM] GET /
+0|backend  | [6:19:42 AM] GET /
+0|backend  | [6:22:27 AM] GET /
+0|backend  | [7:06:52 AM] GET /
+0|backend  | [7:41:42 AM] GET /
+0|backend  | [7:44:23 AM] GET /
+0|backend  | [8:16:54 AM] GET /..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
+0|backend  | [8:31:09 AM] POST /
+0|backend  | [9:04:45 AM] GET /machines
+0|backend  | [9:04:47 AM] GET /machines
+0|backend  | [9:04:48 AM] GET /machines
+0|backend  | [9:04:53 AM] GET /machines
+0|backend  | [9:04:58 AM] GET /machines
+0|backend  | [9:05:03 AM] GET /machines
+0|backend  | [9:05:08 AM] GET /machines
+0|backend  | [9:05:13 AM] GET /machines
+0|backend  | [9:05:18 AM] GET /machines
+0|backend  | [9:05:23 AM] GET /machines
+0|backend  | [9:05:28 AM] GET /machines
+0|backend  | [9:05:33 AM] GET /machines
+0|backend  | [9:05:38 AM] GET /machines
+0|backend  | [9:05:43 AM] GET /machines
+0|backend  | [9:05:48 AM] GET /machines
+0|backend  | [9:05:53 AM] GET /machines
+0|backend  | [dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+0|backend  | ✅ Server Live at: http://103.172.92.131:3000
+0|backend  | ✅ Connected to PostgreSQL
+0|backend  | [9:05:58 AM] GET /machines
+0|backend  | [9:06:03 AM] GET /machines
+0|backend  | [9:06:08 AM] GET /machines
+0|backend  | [9:06:13 AM] GET /machines
+0|backend  | [9:06:18 AM] GET /machines
+0|backend  | [9:06:23 AM] GET /machines
+0|backend  | [9:06:28 AM] GET /machines
+0|backend  | [9:06:33 AM] GET /machines
+0|backend  | [9:06:38 AM] GET /machines
+0|backend  | [9:06:43 AM] GET /machines
+0|backend  | [9:06:48 AM] GET /machines
+0|backend  | [9:06:53 AM] GET /machines
+0|backend  | [9:06:58 AM] GET /machines
+0|backend  | [9:07:03 AM] GET /machines
+0|backend  | [9:07:08 AM] GET /machines
+0|backend  | [9:07:13 AM] GET /machines
+0|backend  | [9:07:18 AM] GET /machines
+0|backend  | [9:07:23 AM] GET /machines
+0|backend  | [9:07:28 AM] GET /machines
+0|backend  | [9:07:33 AM] GET /machines
+0|backend  | [9:07:38 AM] GET /machines
+0|backend  | [9:07:43 AM] GET /machines
+0|backend  | [9:07:48 AM] GET /machines
+0|backend  | [9:07:53 AM] GET /machines
+0|backend  | [9:07:58 AM] GET /machines
+0|backend  | [9:08:04 AM] GET /machines
+0|backend  | [9:08:09 AM] GET /machines
+0|backend  | [9:08:14 AM] GET /machines
+0|backend  | [9:08:19 AM] GET /machines
+0|backend  | [9:08:24 AM] GET /machines
+0|backend  | [9:08:29 AM] GET /machines
+0|backend  | [9:08:34 AM] GET /machines
+0|backend  | [9:08:39 AM] GET /machines
+0|backend  | [9:08:44 AM] GET /machines
+0|backend  | [9:08:49 AM] GET /machines
+0|backend  | [9:08:54 AM] GET /machines
+0|backend  | [9:08:59 AM] GET /machines
+0|backend  | [9:09:26 AM] GET /machines
+0|backend  | [9:09:43 AM] GET /machines
+0|backend  | [9:09:43 AM] GET /machines
+0|backend  | [9:09:48 AM] GET /machines
+0|backend  | [9:09:54 AM] GET /machines
+0|backend  | [9:09:59 AM] GET /machines
+0|backend  | [9:10:04 AM] GET /machines
+0|backend  | [9:10:09 AM] GET /machines
+0|backend  | [9:10:14 AM] GET /machines
+0|backend  | [9:10:19 AM] GET /machines
+0|backend  | [9:10:28 AM] GET /machines
+0|backend  | [9:10:29 AM] GET /machines
+0|backend  | [9:10:34 AM] GET /machines
+0|backend  | [9:10:39 AM] GET /machines
+0|backend  | [9:10:44 AM] GET /machines
+0|backend  | [9:10:49 AM] GET /machines
+0|backend  | [9:10:54 AM] GET /machines
+0|backend  | [9:11:26 AM] GET /machines
+0|backend  | [9:12:26 AM] GET /machines
+0|backend  | [9:13:26 AM] GET /machines
+0|backend  | [9:14:26 AM] GET /machines
+0|backend  | [9:15:26 AM] GET /machines
+0|backend  | [9:16:26 AM] GET /machines
+0|backend  | [9:17:26 AM] GET /machines
+0|backend  | [9:17:40 AM] POST /login
+0|backend  | [LOGIN ATTEMPT] Email: "op", Role: "OPERATOR"
+0|backend  | [LOGIN DEBUG] Found 0 users matching.
+0|backend  | [9:17:48 AM] POST /login
+0|backend  | [LOGIN ATTEMPT] Email: "op", Role: "OPERATOR"
+0|backend  | [LOGIN DEBUG] Found 0 users matching.
+0|backend  | [9:18:01 AM] POST /login
+0|backend  | [LOGIN ATTEMPT] Email: "op", Role: "OPERATOR"
+0|backend  | [LOGIN DEBUG] Found 0 users matching.
+0|backend  | [9:18:26 AM] GET /machines
+0|backend  | [9:18:34 AM] POST /login
+0|backend  | [LOGIN ATTEMPT] Email: "mohan", Role: "OPERATOR"
+0|backend  | [LOGIN DEBUG] Found 1 users matching.
+0|backend  | [LOGIN DEBUG] Comparing password for user: mohan
+0|backend  | [LOGIN DEBUG] Password match result: true
+0|backend  | [9:18:34 AM] GET /machines
+0|backend  | [9:18:37 AM] GET /machines
+0|backend  | [9:18:40 AM] GET /machines
+0|backend  | [9:18:43 AM] GET /machines
+0|backend  | [9:18:46 AM] GET /machines
+0|backend  | [9:18:49 AM] GET /machines
+0|backend  | [9:18:52 AM] GET /machines
+0|backend  | [9:18:53 AM] GET /inventory/materials
+0|backend  | [9:18:53 AM] GET /inventory/molds
+0|backend  | [9:18:53 AM] GET /inventory/semi_finished
+0|backend  | [9:18:53 AM] GET /inventory/materials
+0|backend  | [9:18:53 AM] GET /inventory/colors
+0|backend  | [9:18:53 AM] GET /inventory/colors
+0|backend  | [9:18:53 AM] GET /inventory/molds
+0|backend  | [9:18:54 AM] GET /inventory/semi_finished
+0|backend  | [9:18:54 AM] GET /inventory/materials
+0|backend  | [9:18:54 AM] GET /inventory/colors
+0|backend  | [9:18:54 AM] GET /inventory/molds
+0|backend  | [9:18:54 AM] GET /inventory/semi_finished
+0|backend  | [9:18:54 AM] GET /machines
+0|backend  | [9:18:54 AM] GET /machines
+0|backend  | [9:18:55 AM] GET /machines
+0|backend  | [9:18:58 AM] GET /machines
+0|backend  | [9:18:58 AM] GET /inventory/materials
+0|backend  | [9:18:58 AM] GET /inventory/colors
+0|backend  | [9:18:58 AM] GET /inventory/semi_finished
+0|backend  | [9:18:58 AM] GET /machines
+0|backend  | [9:18:58 AM] GET /inventory/molds
+0|backend  | [9:19:01 AM] GET /machines
+0|backend  | [9:19:03 AM] GET /inventory/materials
+0|backend  | [9:19:03 AM] GET /inventory/colors
+0|backend  | [9:19:03 AM] GET /inventory/molds
+0|backend  | [9:19:03 AM] GET /inventory/semi_finished
+0|backend  | [9:19:03 AM] GET /machines
+0|backend  | [9:19:04 AM] GET /machines
+0|backend  | [9:19:07 AM] GET /machines
+0|backend  | [9:19:08 AM] GET /inventory/molds
+0|backend  | [9:19:08 AM] GET /inventory/materials
+0|backend  | [9:19:08 AM] GET /inventory/semi_finished
+0|backend  | [9:19:08 AM] GET /machines
+0|backend  | [9:19:08 AM] GET /inventory/colors
+0|backend  | [9:19:10 AM] GET /machines
+0|backend  | [9:19:13 AM] GET /machines
+0|backend  | [9:19:13 AM] GET /inventory/molds
+0|backend  | [9:19:13 AM] GET /inventory/semi_finished
+0|backend  | [9:19:13 AM] GET /inventory/colors
+0|backend  | [9:19:13 AM] GET /machines
+0|backend  | [9:19:13 AM] GET /inventory/materials
+0|backend  | [9:19:16 AM] GET /machines
+0|backend  | [9:19:17 AM] GET /machines
+0|backend  | [9:19:19 AM] GET /machines
+0|backend  | [9:19:20 AM] GET /machines
+0|backend  | [9:19:22 AM] GET /machines
+0|backend  | [9:19:26 AM] GET /machines
+0|backend  | [9:19:59 AM] GET /machines
+0|backend  | [9:19:59 AM] GET /machines
+0|backend  | [9:20:26 AM] GET /machines
+0|backend  | [9:21:26 AM] GET /machines
+0|backend  | [9:22:26 AM] GET /machines
+0|backend  | [9:23:26 AM] GET /machines
+0|backend  | [9:24:26 AM] GET /machines
+0|backend  | [9:25:26 AM] GET /machines
+0|backend  | [9:26:26 AM] GET /machines
+0|backend  | [9:27:26 AM] GET /machines
+0|backend  | [9:28:26 AM] GET /machines
+0|backend  | [9:29:26 AM] GET /machines
+0|backend  | [9:30:26 AM] GET /machines
+0|backend  | [9:31:26 AM] GET /machines
+0|backend  | [9:32:26 AM] GET /machines
+0|backend  | [9:33:26 AM] GET /machines
+0|backend  | [9:34:26 AM] GET /machines
+0|backend  | [9:35:26 AM] GET /machines
+0|backend  | [9:36:26 AM] GET /machines
+0|backend  | [9:37:26 AM] GET /machines
+0|backend  | [9:38:26 AM] GET /machines
+0|backend  | [9:39:26 AM] GET /machines
+0|backend  | [10:11:11 AM] GET /
+

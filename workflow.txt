@@ -1,0 +1,69 @@
+# APPLICATION WORKFLOW: FACTORY MANAGEMENT SYSTEM
+
+This document outlines the operational flow from procurement to accounting.
+
+## ROLES & RESPONSIBILITIES
+
+### 1. OPERATOR (factoryoperator-main)
+- Submits Hourly Production Logs (Material used, Mold used, Cavity, Output, Stop Reason).
+- Reports machine status (Running/Idle).
+- Initiates Production Run Reports.
+
+### 2. PRODUCTION HEAD (factorymanagement-main)
+- Monitors Machine Status in real-time.
+- Reviews Pending Production Reports from Operators.
+- APPROVES or REJECTS reports.
+  - APPROVED: Automatically adds 'Total Output' to 'Semi-Finished' Inventory.
+- Manages Raw Material Inventory (Resin, Colors, Packing Materials).
+- Updates Stock from Vendors (Logs purchases and increments stock quantities).
+
+### 3. ACCOUNTS / ACCOUNTS OPERATOR (frontend-accounts)
+- Manages Sales Invoices (Drafting and finalization).
+- Maintains the Ledger (Credit/Debit entries).
+- Handles 'With GST' and 'Without GST' transactions.
+- Exports Ledger data to TALLY (via XML generation) for final accounting.
+- Oversees Payment Collections and Balance Tracking.
+
+### 4. ADMIN (factorymanagement-main / factoryadmin-main)
+- Full system oversight.
+- User Management: Creates and manages accounts for Operators, Prod Heads, and Accountants.
+- Database Maintenance and Schema Management.
+- High-level Reporting and Analytics.
+
+---
+
+## WORKFLOW DIAGRAM (ER / PROCESS FLOW)
+
+[ VENDORS ] 
+    |
+    | (Raw Materials / Stock In)
+    v
+[ PRODUCTION HEAD ] <-----------------+
+    |                                 |
+    | (Assigns Jobs / Manages Stock)  | (Approvals Update Stock)
+    v                                 |
+[ OPERATOR ] -------------------------+
+    |
+    | (Hourly Logs / Production Reports)
+    v
+[ SEMI-FINISHED INVENTORY ]
+    |
+    | (Sales Order / Dispatch)
+    v
+[ ACCOUNTS ]
+    |
+    | (Invoice Generation / GST Tracking)
+    v
+[ TALLY ERP ] (Final Accounting Export)
+
+---
+
+## DETAILED STEP-BY-STEP FLOW
+
+1. PROCURE: Prod Head adds Raw Material stock from Vendors into the system.
+2. PRODUCE: Operator starts a machine run, submitting hourly logs of output.
+3. FINISH: Operator submits a final report for the production run.
+4. VALIDATE: Prod Head reviews the report. Upon approval, items move to Finished Goods inventory.
+5. SELL: Accounts generates an invoice for a customer, deducting from Finished Goods.
+6. RECORD: Accounts records the payment/ledger entry.
+7. EXPORT: Accounts generates Tally-compatible XML for the local Tally instance.

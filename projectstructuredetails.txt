@@ -1,0 +1,31 @@
+PROJECT STRUCTURE ABSTRACTS
+
+1. factoryoperator-main (Operator App):
+Frontend logic for machinery operators. 
+Logic: Real-time machine status (Idle/Running), logging production runs, reporting material usage, quantities, cavity counts, and cycle times.
+
+2. factorymanagement-main (Management App):
+Multi-module dashboard for supervisors.
+Logic: 
+- Production Head: Shift oversight and performance metrics.
+- Sales: Customer orders, sales history, and tracking.
+- Purchase: Raw material procurement and vendor coordination.
+- Quality (QA): Quality check enforcement and rejection logging.
+
+3. frontend-accounts (Accounts App):
+Accounting and financial interface.
+Logic: Tracking transactions, managing ledger records, and reconciling financial data between sales and purchasing.
+
+4. backend (Mobile API):
+Central server for the three APK applications.
+Logic: Handles core business APIs for attendance, inventory, packing, and sales. Manages DB connection and security/auth. (PM2 Process: backend)
+
+5. factoryadmin-main (Admin Web Suite):
+Web-based management platform.
+Logic: High-level analytics, global user management, database seeding, and system configuration. 
+- Frontend: React visualization. 
+- Backend: TypeScript admin API. (PM2 Process: admin-backend)
+
+Shared Infrastructure:
+- Database: All 5 modules share a single PostgreSQL database for global data consistency.
+- Uploads: Backend manages PDFs and QR Codes in the /uploads directory.
