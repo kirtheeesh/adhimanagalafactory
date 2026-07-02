@@ -267,12 +267,11 @@ const Inventory: React.FC = () => {
                 if (activeTab === 'product' || activeTab === 'semi_finished' || activeTab === 'finished_product') {
                     display_name = item.product_name || item.material_name || '';
                     if (activeTab === 'product') {
-                        // Dynamically calculate potential stock based on current SF balances
-                        const calculation = calculateProductStock(item.semi_finished_products || [], semiFinishedData);
-                        final_closing_stock = calculation.stock;
-
-                        const ppb = Number(item.pieces_per_box) || 1;
-                        display_quantity = Math.floor(final_closing_stock / ppb);
+                        // Use the persisted stock/box_count from the backend (recalculated on every
+                        // approval/edit). It reflects cumulative pieces already converted, not just
+                        // what's currently left in the SF balance — which trends to 0 once consumed.
+                        final_closing_stock = Number(item.closing_stock) || 0;
+                        display_quantity = Number(item.box_count) || 0;
                         display_unit = 'Boxes';
                     } else if (activeTab === 'finished_product') {
                         display_quantity = item.stock_boxes || 0;
@@ -848,12 +847,13 @@ const Inventory: React.FC = () => {
                                                     </div>
                                                     <div className="grid grid-cols-1 gap-2">
                                                         {(() => {
-                                                            const calculation = calculateProductStock(item.semi_finished_products || [], semiFinishedProducts);
                                                             return item.semi_finished_products?.map((sf, i) => {
                                                                 const sfDetail = semiFinishedProducts.find(p => p.id === sf.semi_finished_product_id);
                                                                 const displayName = sf.product_name || sfDetail?.product_name || 'Unknown Component';
-                                                                const piecesTaken = calculation.consumedComponents[sf.semi_finished_product_id] || 0;
-                                                                
+                                                                // Pieces actually consumed = this product's persisted stock (in pieces) × the recipe ratio,
+                                                                // not the live SF balance — that trends to 0 once a component is fully converted.
+                                                                const piecesTaken = (Number(item.closing_stock) || 0) * (sf.quantity_per_piece || 1);
+
                                                                 return (
                                                                     <div key={i} className="flex items-center justify-between bg-slate-50 px-4 py-2.5 rounded-xl border border-slate-100/50 group/item hover:border-orange-200 transition-colors">
                                                                         <div className="flex flex-col min-w-0">

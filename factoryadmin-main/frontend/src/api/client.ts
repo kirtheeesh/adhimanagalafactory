@@ -2,6 +2,9 @@ import axios from 'axios';
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
+const isLocal = /localhost|127\.0\.0\.1/.test(API_URL);
+console.log(`[API] Connected to: ${API_URL} (${isLocal ? 'LOCAL' : 'BACKEND URL'})`);
+
 export { API_URL };
 
 const client = axios.create({
