@@ -20,6 +20,7 @@ import Accounts from './pages/Accounts';
 import AdminProfile from './pages/AdminProfile';
 import Attendance from './pages/Attendance';
 import Reports from './pages/Reports';
+import Privacy from './pages/Privacy';
 
 // Protected Route Component
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -36,6 +37,7 @@ const App: React.FC = () => {
             <Router>
                 <Routes>
                     <Route path="/login" element={<Login />} />
+                    <Route path="/privacy" element={<Privacy />} />
                     
                     <Route path="/" element={
                         <ProtectedRoute>
